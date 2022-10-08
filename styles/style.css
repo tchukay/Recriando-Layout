@@ -1,0 +1,97 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color:#2C2B3D ;
+
+}
+#page{
+    width: 1000px;
+    margin: auto;
+}
+
+
+
+/*NAV*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 43px ;
+}
+nav ul{
+    display: flex;
+
+    gap: 64px;
+}
+nav li{
+    list-style: none;
+
+}
+nav a{
+    font-family: 'JetBrains Mono', monospace;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+/*SECTION*/
+main{
+    margin-top: 66px;
+
+
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.img{
+    width: 390px;
+    height: 278px;  
+
+    margin-right: 46px;
+}
+main section h1{
+    color: #ffffff;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+span{
+    color: #00BFA6;
+    font-weight: bold;
+}
+p{
+    color: #C2C2C2;
+    text-align: center;
+    
+}
+
+
+
+/*FOOTER*/
+footer{
+    width: 568px;
+    height: 55px;
+    margin: 150px auto 13px;
+
+
+    border-top: 1px solid #00BFA6;
+   
+}
+footer p{
+    margin-top: 27px;
+    
+    font-size: 14px;
+    
+    color: #ffffff;
+}
+
+
+
+#balls{
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
